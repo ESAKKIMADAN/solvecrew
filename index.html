@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Solvecrew is Under Construction</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: white;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-weight: 700; /* Bold */
+      font-size: 2.8em;
+      margin: 0 0 10px 0;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 0 40px 0;
+    }
+
+    .dots-loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .dots-loader div {
+      width: 12px;
+      height: 12px;
+      background-color: #ffcc00;
+      border-radius: 50%;
+      animation: bounce 1.7s infinite ease-in-out;
+    }
+
+    .dots-loader div:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .dots-loader div:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes bounce {
+      0%, 80%, 100% {
+        transform: scale(0);
+      }
+      40% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://cdn-icons-png.flaticon.com/512/679/679922.png" alt="Construction Logo" class="logo" />
+  <h1>Solvecrew is Under Construction</h1>
+  <p>We’re working on something awesome. Please check back soon!</p>
+  <div class="dots-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>
